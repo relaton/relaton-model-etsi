@@ -16,8 +16,7 @@ doctype = element doctype {
     attribute abbreviation { DocumentTypeAbbreviation }?,
     DocumentType
 
-DocumentType =
-     "European Standard" | "ETSI Standard" | "ETSI Guide" | "Technical Specification"
+DocumentType = "European Standard" | "ETSI Standard" | "ETSI Guide" | "Technical Specification"
 
 }
 
