@@ -15,6 +15,7 @@ stage = element stage { StageType }
 doctype = element doctype {
     attribute abbreviation { DocumentTypeAbbreviation }?,
     DocumentType
+}
 
 DocumentType = "European Standard" | "ETSI Standard" | "ETSI Guide" | "Technical Specification"
 
