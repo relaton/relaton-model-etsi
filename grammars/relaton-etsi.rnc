@@ -17,13 +17,16 @@ doctype = element doctype {
     DocumentType
 }
 
-DocumentType = "European Standard" | "ETSI Standard" | "ETSI Guide" | "Technical Specification"
+DocumentType = "European Standard" | "ETSI Standard" | "ETSI Guide" | "Technical Specification" | "Group Specification" | "Group  Report" | "Technical Report" |
+"European Norm"  |  "ETSI Technical Report" | "GSM Technical Specificaiton" | "Special Report" | "Technical Committee Reference Technical Report" |
+"European Telecommunication Standard" | "Interim European Telecommunication Standard" | "Norme Européenne de Télécommunication"
+
 
 }
 
 StageType = "EN approval" | "SG approval" | "ES approval" | "Published" | "Withdrawn" | "Historical"
 
-DocumentTypeAbbreviation = "EN" | "ES" | "EG" | "TS"
+DocumentTypeAbbreviation = "EN" | "ES" | "EG" | "TS" | "GS" | "GR" | "TR" | "ETR" | "GTS" | "SR" | "TCRTR" | "TBR" | "ETS" | "I-ETS" | "NET"
 
 marker = element marker { "Current" | "Superseded" }
 frequency = element frequency { text }
