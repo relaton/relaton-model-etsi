@@ -19,7 +19,7 @@ doctype = element doctype {
 
 DocumentType = "European Standard" | "ETSI Standard" | "ETSI Guide" | "Technical Specification" |
 "Group Specification" | "Group Report" | "Technical Report" | "ETSI Technical Report" |
-"GSM Technical Specificaiton" | "Special Report" | "Technical Committee Reference Technical Report" | "Technical Basis for Regulation" |
+"GSM Technical Specification" | "Special Report" | "Technical Committee Reference Technical Report" | "Technical Basis for Regulation" |
 "European Telecommunication Standard" | "Interim European Telecommunication Standard" | "Norme Européenne de Télécommunication"
 
 
