@@ -1,10 +1,5 @@
 include "biblio-standoc.rnc" {
 
-BibDataExtensionType =
-  attribute schema-version { text }?,
-        doctype, docsubtype?, marker, frequency*, mandate*, custom-collection?
-
-
 status =
   element status {
      ( stage )
@@ -24,6 +19,9 @@ DocumentType = "European Standard" | "ETSI Standard" | "ETSI Guide" | "Technical
 
 
 }
+
+BibDataExtensionType &=
+        marker, frequency*, mandate*, custom-collection?
 
 StageType = "EN approval" | "SG approval" | "ES approval" | "Published" | "Withdrawn" | "Historical"
 
